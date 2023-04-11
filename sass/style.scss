@@ -358,7 +358,7 @@ section .yellow_button {
 
 .section1_rightside_tab {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  z-index: 999;
+
   position: relative;
   height: 340px;
   width: 320px;
@@ -472,7 +472,6 @@ section .yellow_button {
   }
 }
 .section1_rightside_tab2:hover {
-  z-index: 100000;
   width: 290px;
   height: 330px;
   .main {
@@ -483,7 +482,9 @@ section .yellow_button {
     opacity: 1;
   }
 }
-
+.s1-tab:hover {
+  z-index: 999;
+}
 .section2 {
   position: relative;
   height: 500px;
@@ -1184,7 +1185,6 @@ section .yellow_button {
       margin-top: 5px;
     }
   }
-
   .section2_leftside {
     width: unset;
   }
